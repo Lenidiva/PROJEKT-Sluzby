@@ -1,0 +1,63 @@
+*, :after, :before { box-sizing: border-box; }
+
+
+/* 
+barvy:  
+pozadí stránky #FAFAFA
+černá #000000
+šedá #8B8B8B
+modrá #407BFF
+bílá #FFFFFF
+#407BFF1F
+*/
+
+
+.container{
+
+    width: 500px;
+    border: 2px solid#407BFF1F;
+    margin:auto;
+    
+    background-color:#FAFAFA;
+    Line-height:21px;
+}
+
+
+.obsah {
+    Font-size: 16px;
+    font-weight: 300;
+    color:#8B8B8B;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    padding: 0 20px 20px 20px;
+    text-align:center;
+}
+    
+    
+
+
+h1{
+    font-size:26px;
+    font-weight:500;
+    color:#000000;
+    margin-top:0;
+    margin-bottom:40px;
+
+    
+
+    
+}
+
+
+.odstavec1{
+   
+    
+}
+
+.img_traveler
+{
+    
+    width: 350px;
+   
+    margin: 60px 75px 40px 75px;
+}
