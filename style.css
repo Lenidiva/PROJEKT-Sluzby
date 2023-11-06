@@ -334,3 +334,79 @@ h2 {
 
 
 
+
+@media screen and (min-width:1100px) {
+    
+.container{
+    width:1200px;
+    
+
+
+}
+.flexbox1{
+    display:flex;
+
+   
+
+}
+.flexbox1 img{
+    max-width: 425px;
+    align-items: center;
+    justify-content:center;
+    padding:0;
+}
+.flexitem2{
+
+order:1;
+width: calc((100% - 260px) /2);
+margin-left:60px;
+margin-right:110px;
+margin-top:60px;
+
+}
+.flexitem1{
+    
+    order:0;
+    width: calc((100% - 260px) /2);
+    margin-left:80px;
+    margin-top:133px;
+    text-align:left;
+    padding:0px;
+
+}
+
+.odstavec1{
+    margin:0;
+    margin-bottom:40px;
+}
+.prvnitlacitko{
+
+margin-right:20px;
+}
+
+
+
+.flexbox2{
+    display:flex;
+    border:2px solid blue;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin-top:80px;
+}
+.flexbox2 h2,
+.flexbox2 .odstavec2{
+    margin:0;
+    text-align: left;
+}
+.flexitem3{
+order:1;
+border:2px solid red;
+flex: 0 1 calc(50% - 30px);
+}
+.flexitem4{
+    order:0;
+    border:2px solid red;
+    flex: 0 1 calc(50% + 30px);
+}
+}
