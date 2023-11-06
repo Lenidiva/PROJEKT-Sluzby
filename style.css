@@ -22,6 +22,11 @@ body{background-color:#FAFAFA;}
     
     background-color:#FAFAFA;
     Line-height:21px;
+    Font-size: 16px;
+    color:#8B8B8B;
+    font-weight: 300;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
 }
 
 
@@ -32,7 +37,7 @@ body{background-color:#FAFAFA;}
     text-align: center;
     font-family:'Montserrat', sans-serif;
     padding: 0 20px 20px 20px;
-    text-align:center;
+    
 }
     
     
@@ -388,11 +393,14 @@ margin-right:20px;
 
 .flexbox2{
     display:flex;
-    border:2px solid blue;
+    
     align-items: center;
     justify-content: center;
     padding:0;
     margin-top:80px;
+    margin-bottom:80px;
+    justify-content: space-between;
+    
 }
 .flexbox2 h2,
 .flexbox2 .odstavec2{
@@ -401,12 +409,52 @@ margin-right:20px;
 }
 .flexitem3{
 order:1;
-border:2px solid red;
-flex: 0 1 calc(50% - 30px);
+
+width: calc(50% - 110px);
+margin-right:80px;
 }
+
+
 .flexitem4{
     order:0;
-    border:2px solid red;
-    flex: 0 1 calc(50% + 30px);
+    
+    width: calc(50% + 110px);
+    
 }
+
+.prvniobdelnik{
+    margin-left:80px;
+    margin-right:20px;
+    
+}
+.tretiobdelnik{
+    margin-left:20px;
+    margin-right: 60px;
+}
+
+.flexbox3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    justify-content: space-between;
+    
+}
+.flexbox3 h2,
+.flexbox3 .odstavec3{
+    margin:0;
+    text-align: left;
+}
+.flexitem5{
+    order:0;
+    width: calc(50% + 90px);
+    margin
+}
+.flexitem6{
+    order:1;
+    width: calc(50% + 90px);
+    margin-right:80px;
+    
+}
+.odstavec3 {margin:0;}
 }
