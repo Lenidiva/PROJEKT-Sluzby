@@ -75,6 +75,7 @@ a {
 .prvnitlacitko {
   background-color: #407bff;
   color: white;
+  width: ;
 }
 
 .druhetlacitko {
@@ -86,16 +87,22 @@ a {
   display: flex;
 
   background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
   box-shadow: 10px 10px 20px #8b8b8b;
   margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .prvniobdelnik img {
   weight: 45px;
   height: 40px;
   padding-right: 30px;
+  
+  
+  
 }
 
 .text1 {
@@ -105,13 +112,16 @@ a {
 }
 
 .druhyobdelnik {
-  display: flex;
+    display: flex;
 
-  background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
-  box-shadow: 10px 10px 20px #8b8b8b;
-  margin-bottom: 15px;
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #8b8b8b;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 .druhyobdelnik img {
@@ -127,60 +137,75 @@ a {
 }
 
 .tretiobdelnik {
-  display: flex;
-  background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
-  box-shadow: 10px 10px 20px #8b8b8b;
+    display: flex;
+
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #8b8b8b;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .tretiobdelnik img {
   weight: 45px;
   height: 40px;
-  padding-right: 30px;
+  
 }
 
 .text3 {
   padding-top: 30px;
-  padding-right: 20px;
+  padding-left: 20px;
   padding-bottom: 20px;
+  padding-right:20px;
 }
 
 .ctvrtyobdelnik {
-  display: flex;
+    display: flex;
 
-  background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
-  box-shadow: 10px 10px 20px #8b8b8b;
-  margin-bottom: 15px;
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #8b8b8b;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ctvrtyobdelnik img {
   weight: 45px;
   height: 40px;
-  padding-right: 30px;
+  
 }
 
 .text4 {
   padding-top: 30px;
-  padding-right: 20px;
+  padding-left: 20px;
   padding-bottom: 20px;
+  padding-right:20px;
 }
 
 .patyobdelnik {
-  display: flex;
+    display: flex;
 
-  background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
-  box-shadow: 10px 10px 20px #8b8b8b;
-  margin-bottom: 15px;
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #8b8b8b;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 .patyobdelnik img {
   weight: 45px;
   height: 40px;
   padding-right: 30px;
+  
+  
 }
 
 .text5 {
@@ -190,13 +215,16 @@ a {
 }
 
 .sestyobdelnik {
-  display: flex;
+    display: flex;
 
-  background-color: #ffffff;
-  weight: 460px;
-  height: 80px;
-  box-shadow: 10px 10px 20px #8b8b8b;
-  margin-bottom: 15px;
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #8b8b8b;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 .sestyobdelnik img {
@@ -240,24 +268,34 @@ a {
   .kontejner1,
   .kontejner2 {
     display: flex;
+    justify-content: space-between;
   }
   .obdelnik {
     margin-bottom: 0;
+    margin-right: 20px;
     display: block;
     height: 172px;
     weight: 230px;
+    padding-top: 40px;
+  }
+  .prvniobdelnik,
+  .ctvrtyobdelnik {
+    margin-left: 20px;
   }
 
   .obdelnik img {
-    padding-top: 20px;
+    align-items: center;
+    max-width: 100%;
+  }
+  .obdelnik img {
+    padding-bottom: 20px;
     padding-right: 0;
-    margin: auto;
   }
 
   .text {
     padding: 0;
     text-align: center;
-    padding-top: 30px;
+
     padding-left: 15px;
     padding-right: 15px;
   }
