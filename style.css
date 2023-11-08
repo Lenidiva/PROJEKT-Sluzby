@@ -22,6 +22,7 @@ body {
   width: 500px;
   border: 2px solid #407bff1f;
   margin: auto;
+  padding-left: 20px;
 
   background-color: #fafafa;
   line-height: 21px;
@@ -42,7 +43,7 @@ body {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 500;
   color: #000000;
   margin-top: 0;
@@ -75,14 +76,15 @@ a {
 .prvnitlacitko {
   background-color: #407bff;
   color: white;
-  width: ;
 }
 
 .druhetlacitko {
   background-color: #8b8b8b;
   color: white;
 }
-
+.obdelnik {
+  font-size: 13px;
+}
 .prvniobdelnik {
   display: flex;
 
@@ -100,9 +102,6 @@ a {
   weight: 45px;
   height: 40px;
   padding-right: 30px;
-  
-  
-  
 }
 
 .text1 {
@@ -112,16 +111,16 @@ a {
 }
 
 .druhyobdelnik {
-    display: flex;
+  display: flex;
 
-    background-color: #ffffff;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #8b8b8b;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #8b8b8b;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .druhyobdelnik img {
@@ -137,75 +136,71 @@ a {
 }
 
 .tretiobdelnik {
-    display: flex;
+  display: flex;
 
-    background-color: #ffffff;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #8b8b8b;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #8b8b8b;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 .tretiobdelnik img {
   weight: 45px;
   height: 40px;
-  
 }
 
 .text3 {
   padding-top: 30px;
   padding-left: 20px;
   padding-bottom: 20px;
-  padding-right:20px;
+  padding-right: 20px;
 }
 
 .ctvrtyobdelnik {
-    display: flex;
+  display: flex;
 
-    background-color: #ffffff;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #8b8b8b;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #8b8b8b;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .ctvrtyobdelnik img {
   weight: 45px;
   height: 40px;
-  
 }
 
 .text4 {
   padding-top: 30px;
   padding-left: 20px;
   padding-bottom: 20px;
-  padding-right:20px;
+  padding-right: 20px;
 }
 
 .patyobdelnik {
-    display: flex;
+  display: flex;
 
-    background-color: #ffffff;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #8b8b8b;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #8b8b8b;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .patyobdelnik img {
   weight: 45px;
   height: 40px;
   padding-right: 30px;
-  
-  
 }
 
 .text5 {
@@ -215,16 +210,16 @@ a {
 }
 
 .sestyobdelnik {
-    display: flex;
+  display: flex;
 
-    background-color: #ffffff;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px #8b8b8b;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #8b8b8b;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .sestyobdelnik img {
@@ -359,14 +354,14 @@ a {
   .flexitem3 {
     order: 1;
 
-    width: calc(50% - 110px);
+    width: calc(50% - 120px);
     margin-right: 80px;
   }
 
   .flexitem4 {
     order: 0;
 
-    width: calc(50% + 110px);
+    width: calc(50% + 120px);
   }
 
   .prvniobdelnik {
@@ -392,7 +387,7 @@ a {
   }
   .flexitem5 {
     order: 0;
-    width: calc(50% + 90px);
+    width: calc(50% - 90px);
     margin-left: 80px;
   }
   .flexitem6 {
